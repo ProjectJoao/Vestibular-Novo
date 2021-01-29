@@ -1,0 +1,64 @@
+<h1 id="tableLabel">Listas dos Alunos</h1>
+
+<p>Alunos que passaram no teste!</p>
+
+<p *ngIf="!forecasts"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="forecasts">
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Data</th>
+      <th>Nota</th>
+      <th>Situação</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Joao</td>
+      <td>27/01/2021</td>
+      <td>10</td>
+      <td>Aprovado</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Mateus</td>
+      <td>24/01/2021</td>
+      <td>7</td>
+      <td>Aprovado</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Aline</td>
+      <td>23/01/2021</td>
+      <td>8</td>
+      <td>Aprovado</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Diego</td>
+      <td>29/01/2021</td>
+      <td>5</td>
+      <td>Reprovado</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Mateus</td>
+      <td>22/01/2021</td>
+      <td>6</td>
+      <td>Reprovado</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td>Ana Júlia</td>
+      <td>29/01/2021</td>
+      <td>9</td>
+      <td>Aprovado</td>
+    </tr>
+  </tbody>
+</table>
